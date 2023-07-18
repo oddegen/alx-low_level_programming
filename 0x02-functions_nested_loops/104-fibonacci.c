@@ -12,14 +12,14 @@
 
 int main(void)
 {
-	long long int count = 0, fib1 = 1, fib2 = 2, sum = 0;
+	unsigned long count = 0, fib1 = 1, fib2 = 2, sum = 0;
 
 	printf("1, 2, ");
 	while (count <= 98)
 	{
 		sum = fib1 + fib2;
 		++count;
-		printf("%lld, ", sum);
+		printf("%lu, ", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
