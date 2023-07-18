@@ -19,7 +19,11 @@ int main(void)
 	{
 		sum = fib1 + fib2;
 		++count;
-		printf("%lu, ", sum);
+
+		if (count != 98)
+			printf("%lu, ", sum);
+		else
+			printf("%lu", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
