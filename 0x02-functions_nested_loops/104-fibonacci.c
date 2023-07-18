@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	int count = 0, fib1 = 1, fib2 = 2, sum = 0;
+	long long int count = 0, fib1 = 1, fib2 = 2, sum = 0;
 
 	printf("1, 2, ");
 	while (count <= 98)
