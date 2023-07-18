@@ -21,9 +21,9 @@ int main(void)
 		++count;
 
 		if (count != 96)
-			printf("%lu, ", sum);
+			printf("%d, ", sum);
 		else
-			printf("%lu", sum);
+			printf("%d", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
