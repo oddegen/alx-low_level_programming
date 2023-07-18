@@ -13,7 +13,8 @@ int main(void)
 	char c[] = "_putchar";
 	int length = sizeof(c) / sizeof(c[0]);
 
-	for (int i = 0; i < length; ++i)
+	int i;
+	for (i = 0; i < length; ++i)
 		_putchar(c[i]);
 	_putchar('\n');
 
