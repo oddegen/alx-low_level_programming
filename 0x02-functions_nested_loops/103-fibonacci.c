@@ -13,7 +13,7 @@
 int main(void)
 {
 	unsigned long fib1 = 1, fib2 = 2, sum;
-	float even_sum = 0;
+	float even_sum = 2;
 
 	while (sum < 4000000)
 	{
