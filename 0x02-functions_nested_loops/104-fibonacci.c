@@ -20,6 +20,9 @@ int main(void)
 		sum = fib1 + fib2;
 		++count;
 		printf("%d, ", sum);
+
+		fib1 = fib2;
+		fib2 = sum;
 	}
 
 	printf("\n");
