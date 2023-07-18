@@ -12,7 +12,8 @@
 
 int main(void)
 {
-	int count = 0, fib1 = 1, fib2 = 2, sum = 0;
+	int count = 0, fib1 = 1, fib2 = 2;
+	double sum = 0;
 
 	printf("1, 2, ");
 	while (count <= 96)
@@ -21,9 +22,9 @@ int main(void)
 		++count;
 
 		if (count != 96)
-			printf("%d, ", sum);
+			printf("%0.0f, ", sum);
 		else
-			printf("%d", sum);
+			printf("%0.0f", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
