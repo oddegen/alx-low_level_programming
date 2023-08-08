@@ -7,13 +7,13 @@
  * @size: array size
  * @c: char to initialize array with
  *
- * Return: array @a
+ * Return: array @char_array
 */
 
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *a;
+	char *char_array;
 
 	if (size == 0)
 		return (NULL);
